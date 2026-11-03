@@ -3,15 +3,15 @@
 - **Dynatrace Associate:** Fri 4 Dec, 12:00 AEDT (6:30am IST)
 - **Microsoft AI-901:** Fri 18 Dec, 12:00 AEDT (6:30am IST)
 
-Every night: Night hour (phone): one video + one section of notes (Tue 3 Nov to Thu 17 Dec).
+Every night: Night hour (phone): one video + one section of notes (Wed 4 Nov to Thu 17 Dec).
 
 ## Phase 1 - Dynatrace foundations
 
 _Melbourne - laptop_
 
-- [ ] **Thu 5 Nov** (laptop 1h): Start Dynatrace University Associate learning path. Log in to the work playground.
-- [ ] **Fri 6 Nov** (laptop 4h): 12-4 block: platform + OneAgent modules. First DQL drills (error logs, CPU timeseries).
-- [ ] **Mon 9 Nov** (laptop 3.5h): Observability modules: services, traces, logs. Build a notebook (+ > Metric trick).
+- [ ] **Thu 5 Nov** (laptop 1h): Check which learning path modules are left. Make sure you can reach the new (3rd gen) apps in the work tenant, not just Classic.
+- [ ] **Fri 6 Nov** (laptop 4h): 12-4 block: take the practice exam cold as a baseline. List your weak areas, then start on the weakest.
+- [ ] **Mon 9 Nov** (laptop 3.5h): Finish remaining learning path modules. DQL drills 1-5 from scratch; notebook + > Metric trick.
 - [ ] **Tue 10 Nov** (laptop 1h): New dashboards: variables, tile types. Strict naming practice (ax-dashboard).
 - [ ] **Wed 11 Nov** (laptop 1h): RUM + Synthetics settings tour: key user actions, cost control, monitor locations/schedule.
 - [ ] **Thu 12 Nov** (phone): Office day - phone only. Reread glossary.
@@ -30,8 +30,8 @@ _Pondy - 1 h weekdays + Fri 12-4 AEDT_
 - [ ] **Mon 23 Nov** (laptop 1h): Finish learning path: Workflows module.
 - [ ] **Tue 24 Nov** (laptop 1h): Bizevents capture rules + DQL on bizevents.
 - [ ] **Wed 25 Nov** (laptop 1h): Log ingestion rules; logs & events in DQL.
-- [ ] **Thu 26 Nov** (laptop 1h): Platform basics: retention periods, timeouts, support tiers (rote MCQ stuff).
-- [ ] **Fri 27 Nov** (laptop 4h): 12-4 block: sample exam, then redo every wrong answer hands-on. Run proctor system check.
+- [ ] **Thu 26 Nov** (laptop 1h): Rote MCQ stuff you never touch day to day: retention periods, timeouts, support tiers, licensing.
+- [ ] **Fri 27 Nov** (laptop 4h): 12-4 block: second practice exam or the certificate simulations. Compare with your 6 Nov baseline; redo every miss hands-on. Run proctor system check.
 - [ ] **Mon 30 Nov** (laptop 1h): DQL from scratch: all drills, no notes.
 - [ ] **Tue 1 Dec** (laptop 1h): Dashboard with variables from scratch, timed (<10 min).
 - [ ] **Wed 2 Dec** (laptop 1h): Traces, synthetics, RUM 'find the answer' drills.

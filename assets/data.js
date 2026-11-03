@@ -8,15 +8,15 @@ window.STUDY = {
   ],
 
   // Nightly phone hour - one tick per night, shown as a streak grid.
-  nightly: { from: "2026-11-03", to: "2026-12-17", label: "Night hour (phone): one video + one section of notes" },
+  nightly: { from: "2026-11-04", to: "2026-12-17", label: "Night hour (phone): one video + one section of notes" },
 
   plan: [
     {
       id: "p1", title: "Phase 1 - Dynatrace foundations", where: "Melbourne - laptop",
       items: [
-        { id: "d-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Start Dynatrace University Associate learning path. Log in to the work playground." },
-        { id: "d-1106", date: "2026-11-06", mode: "laptop", hrs: 4,   text: "12-4 block: platform + OneAgent modules. First DQL drills (error logs, CPU timeseries)." },
-        { id: "d-1109", date: "2026-11-09", mode: "laptop", hrs: 3.5, text: "Observability modules: services, traces, logs. Build a notebook (+ > Metric trick)." },
+        { id: "d-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Check which learning path modules are left. Make sure you can reach the new (3rd gen) apps in the work tenant, not just Classic." },
+        { id: "d-1106", date: "2026-11-06", mode: "laptop", hrs: 4,   text: "12-4 block: take the practice exam cold as a baseline. List your weak areas, then start on the weakest." },
+        { id: "d-1109", date: "2026-11-09", mode: "laptop", hrs: 3.5, text: "Finish remaining learning path modules. DQL drills 1-5 from scratch; notebook + > Metric trick." },
         { id: "d-1110", date: "2026-11-10", mode: "laptop", hrs: 1,   text: "New dashboards: variables, tile types. Strict naming practice (ax-dashboard)." },
         { id: "d-1111", date: "2026-11-11", mode: "laptop", hrs: 1,   text: "RUM + Synthetics settings tour: key user actions, cost control, monitor locations/schedule." },
         { id: "d-1112", date: "2026-11-12", mode: "phone",  hrs: 0,   text: "Office day - phone only. Reread glossary." }
@@ -35,8 +35,8 @@ window.STUDY = {
         { id: "d-1123", date: "2026-11-23", mode: "laptop", hrs: 1, text: "Finish learning path: Workflows module." },
         { id: "d-1124", date: "2026-11-24", mode: "laptop", hrs: 1, text: "Bizevents capture rules + DQL on bizevents." },
         { id: "d-1125", date: "2026-11-25", mode: "laptop", hrs: 1, text: "Log ingestion rules; logs & events in DQL." },
-        { id: "d-1126", date: "2026-11-26", mode: "laptop", hrs: 1, text: "Platform basics: retention periods, timeouts, support tiers (rote MCQ stuff)." },
-        { id: "d-1127", date: "2026-11-27", mode: "laptop", hrs: 4, text: "12-4 block: sample exam, then redo every wrong answer hands-on. Run proctor system check." },
+        { id: "d-1126", date: "2026-11-26", mode: "laptop", hrs: 1, text: "Rote MCQ stuff you never touch day to day: retention periods, timeouts, support tiers, licensing." },
+        { id: "d-1127", date: "2026-11-27", mode: "laptop", hrs: 4, text: "12-4 block: second practice exam or the certificate simulations. Compare with your 6 Nov baseline; redo every miss hands-on. Run proctor system check." },
         { id: "d-1130", date: "2026-11-30", mode: "laptop", hrs: 1, text: "DQL from scratch: all drills, no notes." },
         { id: "d-1201", date: "2026-12-01", mode: "laptop", hrs: 1, text: "Dashboard with variables from scratch, timed (<10 min)." },
         { id: "d-1202", date: "2026-12-02", mode: "laptop", hrs: 1, text: "Traces, synthetics, RUM 'find the answer' drills." },
