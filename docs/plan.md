@@ -40,15 +40,15 @@ _Pondy - 1 h weekdays + Fri 12-4 AEDT_
 
 ## Phase 4 - Microsoft AI-901
 
-_Pondy - 1 h weekdays + Fri 12-4 AEDT_
+_Pondy - Udemy 1-day course as the backbone; Microsoft's practice assessment is the readiness gate_
 
-- [ ] **Mon 7 Dec** (laptop 1h): Book AI-901 slot. Start Microsoft Learn AI-901 path: AI concepts + responsible AI.
-- [ ] **Tue 8 Dec** (laptop 1h): Machine learning fundamentals module.
-- [ ] **Wed 9 Dec** (laptop 1h): Generative AI + agents modules.
-- [ ] **Thu 10 Dec** (laptop 1h): Python basics for the hands-on bits.
-- [ ] **Fri 11 Dec** (laptop 4h): 12-4 block: free practice assessment, then review weak domains.
-- [ ] **Mon 14 Dec** (laptop 1h): Weak domain #1.
-- [ ] **Tue 15 Dec** (laptop 1h): Weak domain #2.
-- [ ] **Wed 16 Dec** (laptop 1h): Practice assessment again - aim 85%+.
-- [ ] **Thu 17 Dec** (laptop 1h): Light review. System check on exam laptop.
+- [ ] **Mon 7 Dec** (laptop 1h): Book the AI-901 exam slot (Fri 18 Dec). Confirm the Udemy course is built for AI-901, not the retired AI-900. Start the course: first quarter.
+- [ ] **Tue 8 Dec** (laptop 1h): Udemy course: second quarter.
+- [ ] **Wed 9 Dec** (laptop 1h): Udemy course: third quarter.
+- [ ] **Thu 10 Dec** (laptop 1h): Udemy course: finish. Do the Python and hands-on bits on the laptop, even if the course skims them.
+- [ ] **Fri 11 Dec** (laptop 4h): 12-4 GATE: Microsoft Learn's free AI-901 practice assessment. 85%+ = light revision only next week. Below that, list weak domains and start on them.
+- [ ] **Mon 14 Dec** (laptop 1h): Weakest domain from the practice assessment (Microsoft Learn module for it). Light review if you scored 85%+.
+- [ ] **Tue 15 Dec** (laptop 1h): Second-weakest domain, or Python/agent hands-on refresher.
+- [ ] **Wed 16 Dec** (laptop 1h): Retake the practice assessment. Aim 85%+.
+- [ ] **Thu 17 Dec** (laptop 1h): Light review only. Run the Pearson OnVUE system test on the exam laptop.
 - [ ] **Fri 18 Dec** (**EXAM**): AI-901 EXAM (12:00 AEDT / 6:30am IST).

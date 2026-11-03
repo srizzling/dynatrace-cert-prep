@@ -45,17 +45,17 @@ window.STUDY = {
       ]
     },
     {
-      id: "p4", title: "Phase 4 - Microsoft AI-901", where: "Pondy - 1 h weekdays + Fri 12-4 AEDT",
+      id: "p4", title: "Phase 4 - Microsoft AI-901", where: "Pondy - Udemy 1-day course as the backbone; Microsoft's practice assessment is the readiness gate",
       items: [
-        { id: "a-1207", date: "2026-12-07", mode: "laptop", hrs: 1, text: "Book AI-901 slot. Start Microsoft Learn AI-901 path: AI concepts + responsible AI." },
-        { id: "a-1208", date: "2026-12-08", mode: "laptop", hrs: 1, text: "Machine learning fundamentals module." },
-        { id: "a-1209", date: "2026-12-09", mode: "laptop", hrs: 1, text: "Generative AI + agents modules." },
-        { id: "a-1210", date: "2026-12-10", mode: "laptop", hrs: 1, text: "Python basics for the hands-on bits." },
-        { id: "a-1211", date: "2026-12-11", mode: "laptop", hrs: 4, text: "12-4 block: free practice assessment, then review weak domains." },
-        { id: "a-1214", date: "2026-12-14", mode: "laptop", hrs: 1, text: "Weak domain #1." },
-        { id: "a-1215", date: "2026-12-15", mode: "laptop", hrs: 1, text: "Weak domain #2." },
-        { id: "a-1216", date: "2026-12-16", mode: "laptop", hrs: 1, text: "Practice assessment again - aim 85%+." },
-        { id: "a-1217", date: "2026-12-17", mode: "laptop", hrs: 1, text: "Light review. System check on exam laptop." },
+        { id: "a-1207", date: "2026-12-07", mode: "laptop", hrs: 1, text: "Book the AI-901 exam slot (Fri 18 Dec). Confirm the Udemy course is built for AI-901, not the retired AI-900. Start the course: first quarter." },
+        { id: "a-1208", date: "2026-12-08", mode: "laptop", hrs: 1, text: "Udemy course: second quarter." },
+        { id: "a-1209", date: "2026-12-09", mode: "laptop", hrs: 1, text: "Udemy course: third quarter." },
+        { id: "a-1210", date: "2026-12-10", mode: "laptop", hrs: 1, text: "Udemy course: finish. Do the Python and hands-on bits on the laptop, even if the course skims them." },
+        { id: "a-1211", date: "2026-12-11", mode: "laptop", hrs: 4, text: "12-4 GATE: Microsoft Learn's free AI-901 practice assessment. 85%+ = light revision only next week. Below that, list weak domains and start on them." },
+        { id: "a-1214", date: "2026-12-14", mode: "laptop", hrs: 1, text: "Weakest domain from the practice assessment (Microsoft Learn module for it). Light review if you scored 85%+." },
+        { id: "a-1215", date: "2026-12-15", mode: "laptop", hrs: 1, text: "Second-weakest domain, or Python/agent hands-on refresher." },
+        { id: "a-1216", date: "2026-12-16", mode: "laptop", hrs: 1, text: "Retake the practice assessment. Aim 85%+." },
+        { id: "a-1217", date: "2026-12-17", mode: "laptop", hrs: 1, text: "Light review only. Run the Pearson OnVUE system test on the exam laptop." },
         { id: "x-ai",   date: "2026-12-18", mode: "exam",   hrs: 2, text: "AI-901 EXAM (12:00 AEDT / 6:30am IST)." }
       ]
     }
