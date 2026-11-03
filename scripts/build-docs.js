@@ -34,6 +34,31 @@ out["plan.md"] = [
   ])
 ].join("\n");
 
+out["guide.md"] = [
+  "# Dynatrace Associate study guide",
+  "",
+  S.guide.lead,
+  "",
+  "## Exam at a glance",
+  "",
+  "| Item | Detail |",
+  "| --- | --- |",
+  ...S.guide.format.map(([k, v]) => `| ${k} | ${v} |`),
+  "",
+  "## The 10 official topic areas",
+  "",
+  ...S.guide.areas.map((a) => `${a.n}. **${a.name}**: ${a.what}`),
+  "",
+  "## Exam tips",
+  "",
+  ...S.guide.tips.map((t) => `- ${t}`),
+  "",
+  "## Links",
+  "",
+  ...S.guide.links.map(([k, u]) => `- [${k}](${u})`),
+  ""
+].join("\n");
+
 out["drills.md"] = [
   "# Playground drills",
   "",

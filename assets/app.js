@@ -251,9 +251,32 @@
     p.appendChild(l);
   }
 
+
+  function renderGuide() {
+    var G = S.guide, p = document.getElementById("tab-guide"); p.innerHTML = "";
+    p.appendChild(el("p", { class: "lead", text: G.lead }));
+    p.appendChild(el("h2", { text: "Exam at a glance" }));
+    var dl = el("dl", { class: "facts" });
+    G.format.forEach(function (f) { dl.appendChild(el("dt", { text: f[0] })); dl.appendChild(el("dd", { text: f[1] })); });
+    p.appendChild(dl);
+    p.appendChild(el("h2", { text: "The 10 official topic areas" }));
+    p.appendChild(el("p", { class: "where", text: "In the order the official learning path recommends. Your plan covers each one; the Topics tab is where you tick them off." }));
+    var ol = el("ol", { class: "areas" });
+    G.areas.forEach(function (a) { ol.appendChild(el("li", {}, [el("strong", { text: a.name }), el("span", { text: a.what })])); });
+    p.appendChild(ol);
+    p.appendChild(el("h2", { text: "Exam tips from recent test-takers" }));
+    var ul = el("ul", { class: "tips" });
+    G.tips.forEach(function (t) { ul.appendChild(el("li", { text: t })); });
+    p.appendChild(ul);
+    p.appendChild(el("h2", { text: "Links" }));
+    var lk = el("ul", { class: "links" });
+    G.links.forEach(function (l) { lk.appendChild(el("li", {}, [el("a", { href: l[1], target: "_blank", rel: "noopener", text: l[0] })])); });
+    p.appendChild(lk);
+  }
+
   function renderAll() {
     renderCountdowns(); renderProgress();
-    renderToday(); renderPlan(); renderDrills(); renderTopics(); renderGlossary(); renderExamDay();
+    renderToday(); renderPlan(); renderDrills(); renderTopics(); renderGlossary(); renderExamDay(); renderGuide();
   }
 
   // ---------- tabs ----------

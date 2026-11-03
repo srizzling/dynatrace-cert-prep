@@ -136,6 +136,23 @@ pre {
 
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 16px; color: var(--muted); }
 
+
+/* Guide */
+.lead { font-size: 1.02rem; margin: 4px 0 6px; max-width: 65ch; }
+.facts { display: grid; grid-template-columns: minmax(0, 8.5em) minmax(0, 1fr); gap: 0; margin: 8px 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.facts dt, .facts dd { margin: 0; padding: 9px 12px; border-top: 1px solid var(--line); }
+.facts dt { font-weight: 600; font-size: 0.86rem; color: var(--muted); }
+.facts dd { overflow-wrap: anywhere; }
+.facts dt:first-of-type, .facts dt:first-of-type + dd { border-top: 0; }
+.areas { margin: 0; padding: 0; list-style: none; counter-reset: area; display: grid; gap: 8px; }
+.areas li { counter-increment: area; display: grid; grid-template-columns: 2em minmax(0, 1fr); column-gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; }
+.areas li::before { content: counter(area); grid-row: span 2; font: 700 1.1rem var(--display); color: var(--accent); }
+.areas strong { display: block; }
+.areas span { color: var(--muted); font-size: 0.92rem; }
+.tips, .links { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 65ch; }
+.links a { color: var(--accent); }
+@media (max-width: 420px) { .facts { grid-template-columns: minmax(0, 1fr); } .facts dd { border-top: 0; padding-top: 0; } }
+
 /* Footer */
 .foot { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 14px; padding-bottom: 40px; font-size: 0.88rem; color: var(--muted); }
 .foot-actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }

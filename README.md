@@ -9,6 +9,7 @@ Two ways to use it:
 
 | File | What's in it |
 | --- | --- |
+| [docs/guide.md](docs/guide.md) | Exam format, 10 topic areas, tips, links |
 | [docs/plan.md](docs/plan.md) | Day-by-day plan, both exams |
 | [docs/topics.md](docs/topics.md) | What the Dynatrace exam tests |
 | [docs/drills.md](docs/drills.md) | Hands-on drills with starter DQL |
