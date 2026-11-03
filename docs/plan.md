@@ -9,7 +9,7 @@ Every night: Night hour (phone): 15-20 Udemy questions in practice mode, or one 
 
 _Melbourne - laptop. Spine = the 10 official topic areas; Essentials courses only where you're weak_
 
-- [ ] **Wed 4 Nov** (laptop 1h): Set-up (work block): log in to Dynatrace University and open the Essentials Learning Plan to see what's done. Check you can reach the new (3rd gen) apps in the work tenant. Sort the phone app login while you're logged in on the laptop (QR code). Don't open Udemy test 1 yet - it's Friday's baseline.
+- [ ] **Wed 4 Nov** (laptop 1h): Set-up (work block): log in to Dynatrace University and see what's done in the Essentials Learning Plan. Sort the phone app login while you're logged in on the laptop (QR code). Then start Area 3: the Notebooks update video (40 min) with a notebook open in the work tenant. Don't open Udemy test 1 yet - it's Friday's baseline.
 - [ ] **Thu 5 Nov** (laptop 1h): Areas 1 + 2 - Platform and Monitoring: skim the official docs you know least (Hub, Support Center, Kubernetes monitoring). Queue App Spotlight videos for night hours.
 - [ ] **Fri 6 Nov** (laptop 4h): 12-4 BASELINE: Udemy (Daniel Hagbi) practice test 1, timed, exam mode. Then the Dynatrace University practice exam. Score each of the 10 topic areas weak/ok/strong on the Topics tab. Start on the weakest.
 - [ ] **Mon 9 Nov** (laptop 3.5h): Areas 3 + 6 - Notebooks, Dashboards, DQL: 'A Practical Guide to DQL' video (36 min), DQL docs, drills 1-5 from scratch, notebook + > Metric trick.
