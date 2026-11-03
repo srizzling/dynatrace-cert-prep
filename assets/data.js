@@ -14,8 +14,8 @@ window.STUDY = {
     {
       id: "p1", title: "Phase 1 - Baseline + core areas", where: "Melbourne - laptop. Spine = the 10 official topic areas; Essentials courses only where you're weak",
       items: [
-        { id: "d1-1104", date: "2026-11-04", mode: "phone",  hrs: 0,   text: "Night hour: sort the Dynatrace University app login (try the QR code or phone browser). Watch Dynatrace App Spotlight videos. Don't open Udemy test 1 yet - save it for Friday's baseline." },
-        { id: "d1-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Set-up: log in to Dynatrace University, open the Essentials Learning Plan to see what's done, check you can reach the new (3rd gen) apps in the work tenant. Skim the official topic list." },
+        { id: "d1-1104", date: "2026-11-04", mode: "laptop", hrs: 1,   text: "Set-up (work block): log in to Dynatrace University and open the Essentials Learning Plan to see what's done. Check you can reach the new (3rd gen) apps in the work tenant. Sort the phone app login while you're logged in on the laptop (QR code). Don't open Udemy test 1 yet - it's Friday's baseline." },
+        { id: "d1-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Areas 1 + 2 - Platform and Monitoring: skim the official docs you know least (Hub, Support Center, Kubernetes monitoring). Queue App Spotlight videos for night hours." },
         { id: "d1-1106", date: "2026-11-06", mode: "laptop", hrs: 4,   text: "12-4 BASELINE: Udemy (Daniel Hagbi) practice test 1, timed, exam mode. Then the Dynatrace University practice exam. Score each of the 10 topic areas weak/ok/strong on the Topics tab. Start on the weakest." },
         { id: "d1-1109", date: "2026-11-09", mode: "laptop", hrs: 3.5, text: "Areas 3 + 6 - Notebooks, Dashboards, DQL: 'A Practical Guide to DQL' video (36 min), DQL docs, drills 1-5 from scratch, notebook + > Metric trick." },
         { id: "d1-1110", date: "2026-11-10", mode: "laptop", hrs: 1,   text: "Area 4 - Business Analytics & DEM: RUM app definition, key user actions, synthetics settings, business events. Do the find-the-answer drills 9-10." },
