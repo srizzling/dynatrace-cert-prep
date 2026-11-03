@@ -1,0 +1,2 @@
+// Pod CPU limits by namespace
+timeseries sum(dt.kubernetes.container.limits_cpu), by:{k8s.namespace.name}

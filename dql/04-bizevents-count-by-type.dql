@@ -1,0 +1,3 @@
+// Bizevents count by type
+fetch bizevents
+| summarize count(), by:{event.type}

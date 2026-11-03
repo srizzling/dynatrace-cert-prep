@@ -1,0 +1,2 @@
+// CPU over time by host, then chart it
+timeseries avg(dt.host.cpu.usage), by:{dt.entity.host}

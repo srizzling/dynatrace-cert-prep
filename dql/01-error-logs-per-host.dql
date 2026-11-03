@@ -1,0 +1,4 @@
+// Error logs per host
+fetch logs
+| filter loglevel == "ERROR"
+| summarize count(), by:{dt.entity.host}

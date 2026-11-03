@@ -1,0 +1,6 @@
+// Add, rename, drop fields
+fetch logs
+| fieldsAdd sev = loglevel
+| fieldsRename msg = content
+| fieldsRemove dt.entity.host
+| limit 20

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1720" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<title>Cert Prep 2026</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d7a6f'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Cert Prep 2026</h1>
+    <p class="sub">Dynatrace Associate &rarr; Microsoft AI-901</p>
+    <div id="countdowns" class="countdowns"></div>
+    <div class="progress" aria-label="Overall progress">
+      <div class="bar"><span id="bar-fill"></span></div>
+      <span id="bar-label" class="bar-label"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <div class="wrap tabs-inner">
+    <button role="tab" data-tab="today" aria-selected="true">Today</button>
+    <button role="tab" data-tab="plan">Plan</button>
+    <button role="tab" data-tab="drills">Drills</button>
+    <button role="tab" data-tab="topics">Topics</button>
+    <button role="tab" data-tab="glossary">Glossary</button>
+    <button role="tab" data-tab="examday">Exam day</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section id="tab-today" class="panel"></section>
+  <section id="tab-plan" class="panel" hidden></section>
+  <section id="tab-drills" class="panel" hidden></section>
+  <section id="tab-topics" class="panel" hidden></section>
+  <section id="tab-glossary" class="panel" hidden></section>
+  <section id="tab-examday" class="panel" hidden></section>
+</main>
+
+<footer class="wrap foot">
+  <p>Progress is saved in this browser. Move it between phone and laptop with a sync code.</p>
+  <div class="foot-actions">
+    <button id="btn-export" class="ghost">Copy sync code</button>
+    <button id="btn-import" class="ghost">Paste sync code</button>
+    <button id="btn-reset" class="ghost danger">Reset</button>
+  </div>
+  <p class="muted">Notes also live as markdown in <code>docs/</code>. Edit the plan in <code>assets/data.js</code>.</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
