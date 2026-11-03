@@ -1,5 +1,6 @@
 # Exam-day checklist
 
+- [ ] Multiple-response questions deduct marks for each wrong pick - only tick options you’re sure of.
 - [ ] By 27 Nov: proctoring system check on the exam laptop in Pondy (work laptops often block it).
 - [ ] Exam slot booked - remember it's 6:30am in India.
 - [ ] Quiet closed room for the full slot; household told.

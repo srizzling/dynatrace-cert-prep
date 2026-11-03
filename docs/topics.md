@@ -30,6 +30,10 @@ Browser vs HTTP monitors, locations, schedule, executions & results.
 
 How problems are raised, root-cause view, automatic baselining.
 
+## Security
+
+Application Security, third-party vs code-level vulnerabilities, Davis Security Advisor and Score, Security Investigator.
+
 ## Workflows
 
 Build one simple event-triggered workflow.

@@ -8,40 +8,40 @@ window.STUDY = {
   ],
 
   // Nightly phone hour - one tick per night, shown as a streak grid.
-  nightly: { from: "2026-11-04", to: "2026-12-17", label: "Night hour (phone): one video + one section of notes" },
+  nightly: { from: "2026-11-04", to: "2026-12-17", label: "Night hour (phone): 15-20 Udemy questions in practice mode, or one weak-area video" },
 
   plan: [
     {
-      id: "p1", title: "Phase 1 - Dynatrace foundations", where: "Melbourne - laptop",
+      id: "p1", title: "Phase 1 - Baseline + core areas", where: "Melbourne - laptop. Spine = the 10 official topic areas; Essentials courses only where you're weak",
       items: [
-        { id: "d-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Check which learning path modules are left. Make sure you can reach the new (3rd gen) apps in the work tenant, not just Classic." },
-        { id: "d-1106", date: "2026-11-06", mode: "laptop", hrs: 4,   text: "12-4 block: take the practice exam cold as a baseline. List your weak areas, then start on the weakest." },
-        { id: "d-1109", date: "2026-11-09", mode: "laptop", hrs: 3.5, text: "Finish remaining learning path modules. DQL drills 1-5 from scratch; notebook + > Metric trick." },
-        { id: "d-1110", date: "2026-11-10", mode: "laptop", hrs: 1,   text: "New dashboards: variables, tile types. Strict naming practice (ax-dashboard)." },
-        { id: "d-1111", date: "2026-11-11", mode: "laptop", hrs: 1,   text: "RUM + Synthetics settings tour: key user actions, cost control, monitor locations/schedule." },
-        { id: "d-1112", date: "2026-11-12", mode: "phone",  hrs: 0,   text: "Office day - phone only. Reread glossary." }
+        { id: "d1-1105", date: "2026-11-05", mode: "laptop", hrs: 1,   text: "Set-up: log in to Dynatrace University, open the Essentials Learning Plan to see what's done, check you can reach the new (3rd gen) apps in the work tenant. Skim the official topic list." },
+        { id: "d1-1106", date: "2026-11-06", mode: "laptop", hrs: 4,   text: "12-4 BASELINE: Udemy (Daniel Hagbi) practice test 1, timed, exam mode. Then the Dynatrace University practice exam. Score each of the 10 topic areas weak/ok/strong on the Topics tab. Start on the weakest." },
+        { id: "d1-1109", date: "2026-11-09", mode: "laptop", hrs: 3.5, text: "Areas 3 + 6 - Notebooks, Dashboards, DQL: 'A Practical Guide to DQL' video (36 min), DQL docs, drills 1-5 from scratch, notebook + > Metric trick." },
+        { id: "d1-1110", date: "2026-11-10", mode: "laptop", hrs: 1,   text: "Area 4 - Business Analytics & DEM: RUM app definition, key user actions, synthetics settings, business events. Do the find-the-answer drills 9-10." },
+        { id: "d1-1111", date: "2026-11-11", mode: "laptop", hrs: 1,   text: "Area 7 - Security: Application Security, third-party and code-level vulnerabilities, Davis Security Advisor, Security Investigator (docs)." },
+        { id: "d1-1112", date: "2026-11-12", mode: "phone",  hrs: 0,   text: "Office day - phone: Udemy practice test 2 in practice mode (answers shown). Note every miss." }
       ]
     },
     {
-      id: "p2", title: "Phase 2 - Travel", where: "Singapore + arrival - phone only",
+      id: "p2", title: "Phase 2 - Travel", where: "Singapore + arrival - phone only, optional",
       items: [
-        { id: "d-trav1", date: "2026-11-14", mode: "phone", hrs: 0, text: "Rewatch weak-area videos." },
-        { id: "d-trav2", date: "2026-11-19", mode: "phone", hrs: 0, text: "Glossary self-test: cover the right column, say it aloud." }
+        { id: "d2-trav1", date: "2026-11-15", mode: "phone", hrs: 0, text: "Udemy: redo only the questions you got wrong in tests 1-2." },
+        { id: "d2-trav2", date: "2026-11-20", mode: "phone", hrs: 0, text: "Glossary self-test (shuffle). Rewatch one weak-area video." }
       ]
     },
     {
-      id: "p3", title: "Phase 3 - Dynatrace deep dive", where: "Pondy - 1 h weekdays + Fri 12-4 AEDT",
+      id: "p3", title: "Phase 3 - Remaining areas + exam practice", where: "Pondy - 1 h weekdays + Fri 12-4 AEDT",
       items: [
-        { id: "d-1123", date: "2026-11-23", mode: "laptop", hrs: 1, text: "Finish learning path: Workflows module." },
-        { id: "d-1124", date: "2026-11-24", mode: "laptop", hrs: 1, text: "Bizevents capture rules + DQL on bizevents." },
-        { id: "d-1125", date: "2026-11-25", mode: "laptop", hrs: 1, text: "Log ingestion rules; logs & events in DQL." },
-        { id: "d-1126", date: "2026-11-26", mode: "laptop", hrs: 1, text: "Rote MCQ stuff you never touch day to day: retention periods, timeouts, support tiers, licensing." },
-        { id: "d-1127", date: "2026-11-27", mode: "laptop", hrs: 4, text: "12-4 block: second practice exam or the certificate simulations. Compare with your 6 Nov baseline; redo every miss hands-on. Run proctor system check." },
-        { id: "d-1130", date: "2026-11-30", mode: "laptop", hrs: 1, text: "DQL from scratch: all drills, no notes." },
-        { id: "d-1201", date: "2026-12-01", mode: "laptop", hrs: 1, text: "Dashboard with variables from scratch, timed (<10 min)." },
-        { id: "d-1202", date: "2026-12-02", mode: "laptop", hrs: 1, text: "Traces, synthetics, RUM 'find the answer' drills." },
-        { id: "d-1203", date: "2026-12-03", mode: "laptop", hrs: 1, text: "Weakest area from sample exam. Walk through exam-day checklist." },
-        { id: "x-dt",   date: "2026-12-04", mode: "exam",   hrs: 2, text: "DYNATRACE ASSOCIATE EXAM (12:00 AEDT / 6:30am IST)." }
+        { id: "d3-1123", date: "2026-11-23", mode: "laptop", hrs: 1, text: "Area 8 - Automation: AutomationEngine + Workflows docs. Do the Workflows Quick Start hands-on; drill 12." },
+        { id: "d3-1124", date: "2026-11-24", mode: "laptop", hrs: 1, text: "Area 9 - Ingestion: log ingestion rules, cloud integrations, bizevent capture rules. Drill 11 (find them in Settings)." },
+        { id: "d3-1125", date: "2026-11-25", mode: "laptop", hrs: 1, text: "Area 5 - Data, Reporting & Analysis: dashboard report subscriptions, APIs + OAuth client, user behaviour analysis, session segmentation, metrics on Grail." },
+        { id: "d3-1126", date: "2026-11-26", mode: "laptop", hrs: 1, text: "Areas 1, 2, 10 + rote: Smartscape, Hub, log content analysis, OneAgent/K8s monitoring, plus retention periods, timeouts, support tiers." },
+        { id: "d3-1127", date: "2026-11-27", mode: "laptop", hrs: 4, text: "12-4 MOCK: Udemy practice test 3, timed, then the Dynatrace certificate simulations. Compare with 6 Nov baseline; redo every miss hands-on. Proctor system check." },
+        { id: "d3-1130", date: "2026-11-30", mode: "laptop", hrs: 1, text: "DQL from scratch: all drills, no notes." },
+        { id: "d3-1201", date: "2026-12-01", mode: "laptop", hrs: 1, text: "Dashboard with variables from scratch, timed (<10 min). Exact naming." },
+        { id: "d3-1202", date: "2026-12-02", mode: "laptop", hrs: 1, text: "FINAL MOCK: last unused Udemy test (or retake your lowest), timed. Aim 80%+." },
+        { id: "d3-1203", date: "2026-12-03", mode: "laptop", hrs: 1, text: "Fix the final mock's misses. Walk through the exam-day checklist." },
+        { id: "x-dt",    date: "2026-12-04", mode: "exam",   hrs: 2, text: "DYNATRACE ASSOCIATE EXAM (12:00 AEDT / 6:30am IST). 60 MCQ + 10-15 practical." }
       ]
     },
     {
@@ -84,6 +84,7 @@ window.STUDY = {
     { id: "t-rum",  name: "RUM (frontend)", know: "Application config, key user actions, cost control, user & session setup." },
     { id: "t-syn",  name: "Synthetics", know: "Browser vs HTTP monitors, locations, schedule, executions & results." },
     { id: "t-prob", name: "Problems & Davis AI", know: "How problems are raised, root-cause view, automatic baselining." },
+    { id: "t-sec",  name: "Security", know: "Application Security, third-party vs code-level vulnerabilities, Davis Security Advisor and Score, Security Investigator." },
     { id: "t-wf",   name: "Workflows", know: "Build one simple event-triggered workflow." },
     { id: "t-plat", name: "Platform basics", know: "OneAgent, ActiveGate, Smartscape, Grail, data retention periods, timeouts, support tiers." },
     { id: "t-nav",  name: "Navigation", know: "Find any setting, table or user action fast - half the practical is 'look for the answer'." }
@@ -110,6 +111,7 @@ window.STUDY = {
   ],
 
   examDay: [
+    { id: "e0", text: "Multiple-response questions deduct marks for each wrong pick - only tick options you\u2019re sure of." },
     { id: "e1", text: "By 27 Nov: proctoring system check on the exam laptop in Pondy (work laptops often block it)." },
     { id: "e2", text: "Exam slot booked - remember it's 6:30am in India." },
     { id: "e3", text: "Quiet closed room for the full slot; household told." },
